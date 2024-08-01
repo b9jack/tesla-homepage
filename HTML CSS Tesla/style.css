@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    list-style: none;
+}
+
+.body-1{
+    background: url('images/tesla_model_3.jpg') no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    background: none;
+    position: fixed;
+    color: #006eff;
+    font-weight: bold;
+}
+
+button{
+    cursor: pointer;
+}
+
+button i{
+    transition: 0.5s ease;
+}
+
+button i:hover{
+    transform: scale(1.2);
+}
+
+li{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    transition: 0.5s ease;
+}
+
+li:hover{
+    transform: scale(1.1);
+    color: #0047a5;
+}
+
+li:active{
+    color: #003170;
+}
+
+.company-name img{
+    width: 120px;
+    background: none;
+}
+
+
+
+.navbar-options ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.help-and-support{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.help-and-support button{
+    width: 25px;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+.car-name-and-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.car-name-and-details .car-name{
+    font-size: 60px;
+}
+
+
+
+
+.car-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.car-buttons button{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.car-buttons .order-now{
+    background-color: #3794ff;
+    color: white;
+}
+
+.car-buttons .order-now:hover{
+    background-color: #0f7af5;
+}
+
+.car-buttons .demo-drive:hover{
+    background-color: #c5c5c5;
+}
+
+.car-buttons .demo-drive{
+    background-color: #d1d1d1;
+}
+
+.additional-information{
+    text-decoration: underline;
+}
+
+.body-2 {
+    background: url('images/tesla_model_y.jpg') no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body-2 .car-name-and-details{
+    color: white;
+}
+
+
+.body-3 {
+    background: url('images/tesla_model_x.jpg') no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body-3 .car-name-and-details{
+    color: #000000;
+}
+
+.body-2 .car-name-and-details .additional-information{
+    font-size: 25px;
+}
+
+.body-4 {
+    background: url('images/tesla_model_s.jpg') no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body-4 .car-name-and-details{
+    color: white;
+}
+
+.body-5 {
+    background: url('images/tesla_cybertruck.jpg') no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body-6 {
+    background: url('images/solar_panels.jpg') no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body-7 {
+    background: url('images/solar_roof.jpg') no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body-8 {
+    background: url('images/tesla_powerwall.jpg') no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body-9 {
+    background: url('images/tesla_accesories.jpg') no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+    padding-top: 40px;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.footer-text{
+    font-size: 13px;
+}
+
+
+
+.footer-options{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-options ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.footer-options li{
+    font-size: 12px;
+}
+
+.footer-options li:hover{
+    scale: none;
+}
